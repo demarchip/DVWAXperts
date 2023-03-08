@@ -12,5 +12,5 @@ scanners:
   - container
 dast:
   url: http://a9a73680f8f8540b5adbb7915abe5d89-2004955227.us-east-2.elb.amazonaws.com:8081
-  fortipentest_scanner: false #true|false 
-  full_scan: true #true|false
+  fortipentest_scanner: false
+  full_scan: true
