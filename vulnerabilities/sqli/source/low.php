@@ -58,3 +58,8 @@ if( isset( $_GET[ 'Submit' ] ) ) {
 		}
 	}
 }
+
+// Generate Anti-CSRF token
+generateSessionToken();
+
+?>
